@@ -1,0 +1,176 @@
+[
+    {
+        "conditions": [
+            {	
+                "topic": "terra/hum",
+                "comparison": ">",
+                "value": 70
+		"topic": "terra/bool",
+                "comparison": "==",
+                "value": 0
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/mist",
+                "value": "off"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "topic": "terra/hum",
+                "comparison": "<",
+                "value": 60
+		"topic": "terra/bool",
+                "comparison": "==",
+                "value": 0
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/mist",
+                "value": "on"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "topic": "terra/temp",
+                "comparison": "<",
+                "value": 25
+		"topic": "terra/bool",
+                "comparison": "==",
+                "value": 0
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/heat",
+                "value": "on"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "topic": "terra/temp",
+                "comparison": ">",
+                "value": 27
+		"topic": "terra/bool",
+                "comparison": "==",
+                "value": 0
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/heat",
+                "value": "off"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "topic": "terra/time",
+                "comparison": "==",
+                "value": "09:00"
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/lite",
+                "value": "on"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "topic": "terra/time",
+                "comparison": "==",
+                "value": "20:00"
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/lite",
+                "value": "off"
+            }
+        ]
+    },
+ {
+        "conditions": [
+            {	
+                "topic": "terra/hum",
+                "comparison": ">",
+                "value": 80
+		"topic": "terra/bool",
+                "comparison": "==",
+                "value": 1
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/mist",
+                "value": "off"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "topic": "terra/hum",
+                "comparison": "<",
+                "value": 70
+		"topic": "terra/bool",
+                "comparison": "==",
+                "value": 1
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/mist",
+                "value": "on"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "topic": "terra/temp",
+                "comparison": "<",
+                "value": 20
+		"topic": "terra/bool",
+                "comparison": "==",
+                "value": 1
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/heat",
+                "value": "on"
+            }
+        ]
+    },
+    {
+        "conditions": [
+            {
+                "topic": "terra/temp",
+                "comparison": ">",
+                "value": 23
+		"topic": "terra/bool",
+                "comparison": "==",
+                "value": 1
+            }
+        ],
+        "results": [
+            {
+                "topic": "terra/heat",
+                "value": "off"
+            }
+        ]
+    }
+]
